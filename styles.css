@@ -1,0 +1,157 @@
+
+/* Apology for this messy .css too */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #004e8c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1{
+  font-size: 22px;
+}
+
+header p{
+  font-size: 12px;
+}
+
+header img{
+  width: 500px;
+}
+
+main {
+  max-width: 100vh;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: #004e8c;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.screenshot, .lesson-pics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Button */
+
+.but {
+  background-color: #004e8c;
+  color: white;
+
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 5px #dfdfdf;
+  /
+
+  
+}
+
+.but:hover {background-color: #051a39}
+
+.but:active {
+  background-color: #004e8c;
+  box-shadow: 0 5px #919191;
+  transform: translateY(4px);
+}
+
+/* one Button Contain */
+
+.container {
+  margin-top: 50px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Audio & Buttons Box */
+
+.big-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small-box {
+    width: 125px;
+    height: auto;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* Aduio Box */
+.audio-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.audio-text-box {
+  width: 340px;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* Image Box */
+
+.imgboxsmall {
+  display: flex;
+  justify-items: center;
+}
+
+.imgboxsmall img{
+  width: 600px;
+}
+
+/* Text Box */
+
+.textbox {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  width: 600px;
+}
+
+.text h1{
+  font-size: 16px;
+}
+
+.text p{
+  font-size: 12px;
+}
+
+/* Header Box */
+
+
+
